@@ -1,8 +1,40 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Dutch Treat</title>
+    <link href="~/css/First.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h2>Dutch Treat</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="produtct-info">
+                    <img src="~/van.jpg" width="200" height="200" />
+                    <h3>Mug</h3>
+                    <ul class="product-props">
+                        <li>Price: 9.99</li>
+                        <li>Artist: Van Gogh</li>
+                        <li>Title:</li>
+                        <li>Description:</li>
+                    </ul>
+                    <button class="btn btn-success">Buy</button>
+                </div>
+                <br />
+                <div class="form-input">
+                    <label>Username</label>
+                    <input />
+                    <br />
+                    <label>Password</label>
+                    <input type="password" />
+                    <br />
+                    <input type="submit" title="Login" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
